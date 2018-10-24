@@ -1,0 +1,35 @@
+{
+    "name": "it-brains/laravel-schedule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Revyakin",
+            "email": "b.revyakin93@gmail.com",
+            "homepage": "http://it-brains.org",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/it-brains/laravel-schedule",
+    "keywords": [
+        "Laravel",
+        "LaravelSchedule",
+        "Schedule",
+        "Console",
+        "Kernel"
+    ],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ITBrains\\LaravelSchedule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ITBrains\\LaravelSchedule\\LaravelScheduleServiceProvider"
+            ]
+        }
+    }
+}
